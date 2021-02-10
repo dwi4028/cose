@@ -19,5 +19,5 @@
 
 - name: "verify release"
   service: test
-  tag: (\d+(\.\d+)+)
+  tag: (\d+(\.\d+)+
   command: ./scripts/verify
